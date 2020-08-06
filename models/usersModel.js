@@ -2,6 +2,7 @@ const mongoose = require('../bin/mongodb');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 //Define a schema
+// Otro comentario para GIT
 const Schema = mongoose.Schema;
 const UserSchema = new Schema({
  name: {
