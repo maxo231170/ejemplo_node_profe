@@ -3,6 +3,9 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 //Define a schema
 // Otro comentario para GIT
+// mas cambios
+// mas cambios II
+
 const Schema = mongoose.Schema;
 const UserSchema = new Schema({
  name: {
